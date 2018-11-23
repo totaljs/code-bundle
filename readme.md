@@ -5,7 +5,7 @@
 - [Documentation](https://docs.totaljs.com)
 - [Wiki](https://wiki.totaljs.com)
 
-# Total.js: Code
+# Total.js: Code bundled version
 
 Online collaboration code.
 
