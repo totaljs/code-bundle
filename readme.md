@@ -9,9 +9,9 @@
 
 Online collaboration code.
 
-- install latest version of Total.js from NPM `$ npm install total.js`
+- install latest version of Total.js 4 from NPM `$ npm install total4`
 - download example
-- run `$ node debug.js`
+- run `$ node index.js`
 - open browser `http://127.0.0.1:8000`
 
 ## Default credentials
