@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "total4": "latest",
+    "dbms": "latest",
     "pg": "latest"
   },
   "scripts": {
