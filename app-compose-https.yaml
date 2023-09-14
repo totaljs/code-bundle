@@ -1,0 +1,24 @@
+# The file is generated automatically
+# Do not remove this file and change it
+version: '3.1'
+
+services:
+  main_app:
+    container_name: ##ID##
+    image: totalplatform/run:npm
+    restart: always
+    volumes:
+      - ##FOLDER_WWW##:/www
+      - ##FOLDER_NPM##:/node_modules
+    environment:
+      - VIRTUAL_MAX_UPLOAD=##MAXUPLOAD##
+      - VIRTUAL_HOST=##HOST##
+      - VIRTUAL_PORT=8000
+      - LETSENCRYPT_HOST=##HOST##
+      - HTTPS_METHOD=redirect
+      - DISABLE_ACCESS_LOGS=1
+
+networks:
+  default:
+    name: proxy
+    external: true
